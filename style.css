@@ -127,6 +127,18 @@ padding: 0.75em 1.5em;
     font-size: 20pt;
 
 }
+.viewmore{
+    min-height: 40px;
+    border-top: 2px solid grey;
+    padding-top: 5px;
+
+}
+.viewmore>*{
+    color: blue;
+    text-decoration: underline;
+    font-size: 15pt;
+    margin-left: 25px;
+}
 .education{
     border: 2px solid grey;
     margin: 10px;
