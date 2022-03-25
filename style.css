@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+}
+
+/*functions*/
+.greytext{
+    color: rgb(151, 151, 151);
+    font-size: 20pt;
+    margin: 15px 0px;
+}
+.whitetext{
+    color: white;
+    text-decoration: unset;
+}
+.smallgap{
+    margin: 20px;
+}
+.inlineblock{
+    display: inline-block;
+    margin: 10px;
+}
+.numbox{
+    background-color: rgb(155, 155, 155);
+    border: 1px solid black;
+    border-radius: 50%;
+    width:2rem;
+    text-align: center;
+}
+.numbox2{
+    background-color: rgb(155, 155, 155);
+    border: 1px solid black;
+    border-radius: 50%;
+    width:5rem;
+    text-align: center;
+}
+/* Universal  I think? */
+.icon{
+    height: 30px;
+    margin-top: 10px;
+}
+.fakelink{
+    color: blue;
+    text-decoration: underline;
+}
+
+.greytop{
+    font-size: xx-large;
+    font-weight: 700;
+    background-color: rgb(83, 83, 83);
+    min-height: 50px;
+    padding: 10px 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+/* NavBar Start*/
+.navbar{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+    background-color: black;
+}
+.navtitle{
+    margin: 0px 20px 0px 150px;
+    flex: 1;
+    font-size: 30pt;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex: 5;
+}
+
+button{
+    background-color: rgb(0, 187, 187);
+    color: white;
+padding: 0.75em 1.5em;
+    font-size:large;
+}
+/*Navbar End*/
+
+
+.page{
+    min-height: 500px;
+    display: flex;
+    margin: 0px 60px ;
+}
+.pageleft{
+    flex: 2;
+    margin:0px 40px;
+}
+.usercard{
+    border: 3px solid grey;
+    min-height: 300px;
+    margin: 20px 20px 60px 20px;
+    
+}
+.usertop{
+    background-color: rgb(54, 181, 212);
+    height: 100px;
+    margin-bottom: 30px;
+}
+.picture{
+    border-radius: 50%;
+    border: 5px solid black;
+    width: 130px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.bottext{
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    font-size: 15pt;
+}
+.newconnect{
+    min-height: 75px;
+    font-size: 20pt;
+
+}
+.education{
+    border: 2px solid grey;
+    margin: 10px;
+}
+.pageright{
+    flex: 1;
+}
+
+.requests{
+    border: 2px solid grey;
+    min-height: 300px;
+    margin: 20px;
+}
+.connections{
+    border: 2px solid grey;
+    min-height: 300px;
+    margin: 20px;
+}
+.pfp{
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.accept{
+    height: 30px;
+    margin-top: 10px;
+}
