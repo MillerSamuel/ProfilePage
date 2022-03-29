@@ -25,13 +25,13 @@
                         <img class="picture" src="./images/jane-m.jpg" alt="Image of Jane Doe">
                     </div>
                     <div class="bottext">
-                        <h1>Jane Doe</h1>
+                        <h1 id="userName">Jane Doe</h1>
                         <img class="icon" src="./icons/map-marker.png" alt="Map Marker">
                         <h2 class="inlineblock">Seattle</h2>
                         <h3>Developer | Engineer | Problem Solver</h3>
                         <h3>Master of the shadows and the Internet</h3>
                         <img class="icon" src="./icons/gear.png" alt="Gear Icon">
-                        <a class="fakelink " href="">edit profile</a>
+                        <a class="fakelink " onclick="changeName('#userName')">edit profile</a>
                     </div>
                 </div>
                 <div class="education">
@@ -46,21 +46,21 @@
             <div class="pageright">
                 <div class="requests">
                     <div class="greytop">
-                        <div class="numbox">2</div>
+                        <div id="numbox" class="numbox">2</div>
                         <div class="inlineblock whitetext">Connection Requests</div>
                     </div>
                     <div class="bottext ">
-                        <div class="newconnect">
-                            <img class="pfp" src="./images/todd-s.jpg" alt="Todd S">
+                        <div id="todd" class="newconnect">
+                            <img class="pfp" src="./images/todd-s.jpg" alt="Todd S" >
                             Todd
-                            <img class="accept" src="./icons/accept-circle.png" alt="Accept Icon">
-                            <img class="accept" src="./icons/close-circle.png" alt="X Icon">
+                            <img class="accept" src="./icons/accept-circle.png" alt="Accept Icon" onclick="decline('#todd')">
+                            <img class="accept" src="./icons/close-circle.png" alt="X Icon" onclick="decline('#todd')">
                         </div>
-                        <div class="newconnect">
+                        <div id="phil" class="newconnect">
                             <img class="pfp" src="./images/phil-s.jpg" alt="Phil K">
                             Phil K
-                            <img class="accept" src="./icons/accept-circle.png" alt="Accept Icon">
-                            <img class="accept" src="./icons/close-circle.png" alt="X Icon">
+                            <img class="accept" src="./icons/accept-circle.png" alt="Accept Icon" onclick="decline('#phil')">
+                            <img class="accept" src="./icons/close-circle.png" alt="X Icon" onclick="decline('#phil')">
                         </div>
                     </div>
                 </div>
@@ -92,5 +92,6 @@
         </div>
     </div>
 </div>
+<script src="./script.js"></script>
 </body>
 </html>
